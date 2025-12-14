@@ -68,3 +68,4 @@ tk.Button(button_frame, text="Clear", font=("Arial", 11), bg="red", fg="white", 
 # Result display
 result_label = tk.Label(window, text="", bg="lightyellow", font=("Arial", 12), wraplength=350, justify="center")
 result_label.grid(row=5, column=0, columnspan=2, pady=10)
+window.mainloop()
